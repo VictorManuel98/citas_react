@@ -1,7 +1,7 @@
+import Header from "./components/Header";
 import Formulario from "./components/Formulario";
 import ListadoPacientes from "./components/ListadoPacientes";
 import {useState, useEffect} from 'react'
-import Header from "./components/header";
 function App() {
  // const initial = JSON.parse(localStorage.getItem('pacientes')) ?? [];
  const pacienteLS = JSON.parse(localStorage.getItem('pacientes')) ?? [];
